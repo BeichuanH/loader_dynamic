@@ -69,6 +69,7 @@ c_p = 3e4; % steering power parameter
 r_pis = 0.19./2; % radius of lift piston
 r_rod = 0.09./2; % radius of lift rod
 A_cylinder = pi * (r_pis^2 - r_rod^2);
+p_cylinder_max = 34e6; % max lift cylinder pressure
 D_pump = 220/1900; % Hydraulic pump displacement
 eta_volumetric = 0.98; % Volumetric efficiency of the lift pump
 eta_lift = 0.9; % efficiency of lift pump
